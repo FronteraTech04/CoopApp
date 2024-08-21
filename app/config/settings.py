@@ -21,15 +21,15 @@ DEBUG = True
 ALLOWED_HOSTS = [    
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    'web-production-5b9e.up.railway.app',
-    "https://web-production-5b9e.up.railway.app",
-    "http://web-production-5b9e.up.railway.app",
+    'web-production-51086.up.railway.app',
+    "https://web-production-51086.up.railway.app",
+    "http://web-production-51086.up.railway.app",
     'localhost',
     '127.0.0.1',
     'localhost:8000',
     '127.0.0.1:8000',
     ]
-#'localhost:3000','web-production-5b9e.up.railway.app','localhost:8000'
+#'localhost:3000','web-production-51086.up.railway.app','localhost:8000'
 
 # Application definition
 
@@ -154,7 +154,7 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# CSRF_TRUSTED_ORIGINS = ['http://*','https://web-production-5b9e.up.railway.app','localhost']
+# CSRF_TRUSTED_ORIGINS = ['http://*','https://web-production-51086.up.railway.app','localhost']
 
 
 
@@ -165,14 +165,14 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    'web-production-5b9e.up.railway.app',
-    "https://web-production-5b9e.up.railway.app",
-    "http://web-production-5b9e.up.railway.app",
+    'web-production-51086.up.railway.app',
+    "https://web-production-51086.up.railway.app",
+    "http://web-production-51086.up.railway.app",
     'localhost',
     '127.0.0.1',
     'localhost:8000',
     '127.0.0.1:8000',
     ]
 
-CSRF_TRUSTED_ORIGINS = ["https://web-production-5b9e.up.railway.app",]
+CSRF_TRUSTED_ORIGINS = ["https://web-production-51086.up.railway.app",]
 

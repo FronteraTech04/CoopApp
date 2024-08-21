@@ -17,8 +17,8 @@ POSTGRESQL = {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'railway',
             'USER': 'postgres',
-            'PASSWORD': 'VQnoJdvuJapAjnkCUjZPUDmdWFMfcfCf', 
-            'HOST': 'monorail.proxy.rlwy.net',
-            'PORT': '28879',
+            'PASSWORD': 'CkTrvBKvQZTnOPJdyiDYZWGTsXWjViHY', 
+            'HOST': 'junction.proxy.rlwy.net',
+            'PORT': '37510',
         }
 }
